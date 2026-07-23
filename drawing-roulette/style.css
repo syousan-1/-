@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(
+        160deg,
+        #050816,
+        #0d1b2a
+        #102a43
+    );
+
+    color: #003042;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#theme,
+#motif,
+#mood {
+    font-size: 32px;
+    margin: 40px auto;
+    padding: 30px;
+
+    width: 350px;
+
+    border: 2px solid #3bc9db;
+    border-radius: 12px;
+
+    background-color: rgba(0,
+    0, 0, 0.45);
+
+    box-shadow: 0 0 15px rgba(59,
+    201, 219, 0.4);
+
+    text-shadow: 0 0 10px rgba(126,
+    231, 255, 0.5);
+}
+
+button {
+    font-size: 20px;
+    padding: 12px 30px;
+
+    background: #102a43;
+    color: white;
+
+    border: 3px solid cyan;
+    border-radius: 8px;
+
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: #3dc9db;
+    color: #111;
+}
